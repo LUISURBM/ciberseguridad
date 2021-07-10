@@ -7,3 +7,6 @@ Lea y estudie cómo funciona la utilidad John the Ripper, presente en la suiteKa
 ' ver contraseñas; rainbow, dictionary
 Examine los archivos /etc/passwd y /etc/shadow. ¿Qué contienen? passwd informacion principal de cuentas de usuarios; shadow contraseñas encriptadas
 ¿Qué medidas o controles pueden implementarse para mitigar el riesgo de ser víctima de un ataque como el del ejemplo? Actualizaciones del sistema, Escanear por vulnerabilidades, Ser receptivo a los cambios, Capacitación y respaldos
+¿Qué puede concluir? Es un scaneo de red para explotar o auditar la red, basada en el protocolo TCP donde se puede obtener información del host de destino mediante la escucha de puertos 
+¿Qué información es relevante? Puertos abuertos, filtrados o cerrados, OS host destino, MAC address
+¿Cómo podría protegerse de un escaneo de este tipo? Firewall, Gateways, asegurando puertos, eliminar puertos de impresoras, habilitar solo programas necesarios, bloquear proxy servers,
