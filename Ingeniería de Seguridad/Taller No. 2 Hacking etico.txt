@@ -1,0 +1,9 @@
+¿Por qué puede ser exitoso este ataque? -> Existen muchas maneras de acceder a sitios mediante correo, por buscador o digitando; Es más común acceder mediante link que digitando.
+¿Qué técnicas pueden usarse para engañar a la víctima? Investigue las opciones -> Suplantación de identidad, Social Engineering, Principio de simpatía, escasez, autoridad, recriprocidad, compromiso y coherencia, aprobación social
+para enmascarar URLs. ¿Cómo se utilizarían en un ataque como el de este ejemplo? Spam, 
+¿Qué medidas o controles pueden implementarse para mitigar el riesgo de ser víctima de un ataque como el del ejemplo? -> Evitar acceder a sitios sospechosos, digitar en la barra siempre
+¿Cómo se almacenan las contraseñas en los sistemas operativos *nix? -> texto sin formato, hash, hash y salado, y cifrado reversiblemente
+Lea y estudie cómo funciona la utilidad John the Ripper, presente en la suiteKali. Creakeo de contraseñas de usuarios 'john filename' creado el archivo primero para empezar a creakear con fuerza bruta 'john --show filename
+' ver contraseñas; rainbow, dictionary
+Examine los archivos /etc/passwd y /etc/shadow. ¿Qué contienen? passwd informacion principal de cuentas de usuarios; shadow contraseñas encriptadas
+¿Qué medidas o controles pueden implementarse para mitigar el riesgo de ser víctima de un ataque como el del ejemplo? Actualizaciones del sistema, Escanear por vulnerabilidades, Ser receptivo a los cambios, Capacitación y respaldos
