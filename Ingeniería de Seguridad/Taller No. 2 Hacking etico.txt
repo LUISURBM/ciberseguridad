@@ -9,4 +9,6 @@ Examine los archivos /etc/passwd y /etc/shadow. ¿Qué contienen? passwd informa
 ¿Qué medidas o controles pueden implementarse para mitigar el riesgo de ser víctima de un ataque como el del ejemplo? Actualizaciones del sistema, Escanear por vulnerabilidades, Ser receptivo a los cambios, Capacitación y respaldos
 ¿Qué puede concluir? Es un scaneo de red para explotar o auditar la red, basada en el protocolo TCP donde se puede obtener información del host de destino mediante la escucha de puertos 
 ¿Qué información es relevante? Puertos abuertos, filtrados o cerrados, OS host destino, MAC address
-¿Cómo podría protegerse de un escaneo de este tipo? Firewall, Gateways, asegurando puertos, eliminar puertos de impresoras, habilitar solo programas necesarios, bloquear proxy servers,
+¿Cómo podría protegerse de un escaneo de este tipo? Firewall, Gateways, asegurando puertos, eliminar puertos de impresoras, habilitar solo programas necesarios, bloquear proxy servers.
+MS08_067 (vulnerabilidad explotada): vulnerabilidad en el servicio Servidor, Critical, Ejecución de código remoto mediante manejo inadecuado de solicitudes RPC(Remote procedure call), Conjunto de parches para Windows 2000, XP, 2003, Vista & 2008.
+¿Qué medidas o controles pueden implementarse para mitigar el riesgo de ser víctima de un ataque como el del ejemplo? Bloquear acceso a algunos servicios, principalmente si tienen acceso a la red.
